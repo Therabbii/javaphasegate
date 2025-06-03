@@ -39,7 +39,7 @@ for (int attempt = 1; attempt <= 10; attempt++){
 		count++;
 		}
 		else if (userInput != equationAnswer){
-		System.out.print("Second try: ");
+		System.out.print("Incorrect. Second try: ");
 		userInput = scanner.nextInt();
 		}
 }
